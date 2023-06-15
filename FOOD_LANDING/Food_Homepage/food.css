@@ -1,0 +1,723 @@
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 1600px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+button{
+    cursor: pointer;
+}
+
+/* Leve-1 starts here */
+#level_1{
+    /* background-color: aliceblue; */
+    display: flex;
+    width:100%;
+    height: 70px;
+    margin-top: 10px;
+ /* border: 2px solid red; */
+    
+}
+#Only_logo{
+margin-top: 10px;
+margin-left: 20px;
+}
+#N_logo{
+    height: 40px;
+    padding-left: 10px;
+}
+#Eng_sign{
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid yellow; */
+    margin-left:800px ;
+    width: 250px;
+    
+}
+
+#Lang_but{
+    background-color:#14213d;
+    color: white;
+    height: 35px;
+    width: 134px;
+    padding-left: 30px;
+    /* border: 0.5px solid white; */
+    border-radius: 4px;
+}
+#Sign_btn{
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 73px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+}
+
+/* Leve-2 starts here */
+#level_2{
+    height: 650px;;
+    width:100%;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+#lev2_backimg2{
+    height: 600px;
+    width: 1171px;
+    background-image:
+    radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 119, 120, 0.4) 1.42%, 
+                rgba(181, 131, 241, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),
+    linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%), 
+    url('/FOOD_LANDING/Food_img/lev2.jpg');
+    margin-left:37px;
+    border-radius: 10px;
+}
+#lev2_h_emai_but{
+    color: white;
+    padding:5.875rem;
+    width: 700px;
+    /* border: 2px solid white; */
+    padding-top: 100px;
+    margin-left: 7px;
+}
+#lev2_h1{
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+#lev2_p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    /* border: 1px solid white; */
+    margin :0;
+    padding: 0;
+}
+#lev2_h3{
+    text-align: start;
+    letter-spacing: 0.9px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev2_emai{
+    display: inline;
+    color: transparent;
+    
+}
+#emai{
+    color: transparent;
+    padding-top: 15px;
+    padding-left: 13px;
+    height: 38px;
+    width: 363px;
+    border: 1px solid white;
+    background-color:rgb(13, 27, 42,0.3);
+    border-radius: 4px;
+    font-size: 17px;
+    /* box-sizing: border-box; */
+}
+#lev2_but{
+    display: inline;
+    width: 196px;
+    height: 57px;
+    margin-left: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Leve-3 starts here */
+#lev3{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 380px;
+    width: 100%;
+}
+#lev3_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev3_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 475px;
+    margin-left: 60px;
+    padding-top: 60px;
+}
+#lev3_h{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_img{
+    /* border: 1px solid white; */
+    padding-left: 5px;
+    width: 500px;
+}
+#img3{
+    width: 480px;
+    height: 380px;
+}
+
+/* Leve-4 starts here */
+#lev4{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 370px;
+    width: 100%;
+}
+#lev4_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev4_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 480px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+#lev4_h{
+    font-size:3rem;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_img{
+    /* border: 1px solid white; */
+    width: 520px;
+}
+#img4{
+    width: 483px;
+    height: 370px;
+    padding-left: 60px;
+}
+
+
+/* Leve-5 starts here */
+#lev5{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+#lev5_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+#lev5_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 505px;
+    margin-left: 55px;
+    padding-top: 30px;
+}
+#lev5_h{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_h_p1{
+    font-size: 3rem;
+    font-weight: 845;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_p2{
+    font-size: 1.3rem;
+    font-weight: 650;
+    /* letter-spacing: 0.4px; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_img{
+    /* border: 1px solid white; */
+    width: 500px;
+}
+#img5{
+    width: 460px;
+    height: 370px;
+    margin-right: 50px;
+    /* border: 1px solid yellow; */
+}
+
+
+/* Leve-6 starts here */
+#lev6{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 450px;
+    width: 100%;
+}
+#lev6_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev6_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 480px;
+    margin-left: 25px;
+    padding-top: 0px;
+    height:400px;
+}
+#lev6_h{
+    font-size:3rem;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_img{
+    /* border: 1px solid white; */
+    width: 520px;
+}
+#img6{
+    width: 483px;
+    height: 440px;
+    padding-left: 60px;
+}
+
+/* Leve-7 starts here */
+#lev7{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    color: white;
+}
+#lev7_bor{
+    /* border: 2px solid white; */
+    margin-top: 70px;
+    margin-left: 83px;
+    width: 1100px;
+}
+#lev7_FAQ{
+    /* border: 1px solid white; */
+    width: 1000px;
+    /* padding-top: 30px; */
+    /* position: relative; */
+    margin-left: 40px;
+}
+#lev7_h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+#lev7_ul{
+    list-style-type: none;
+}
+
+/* *********************************************list-1 starts here ******************************************* */
+
+#lev7_li1{
+    /* border: 1px solid yellow; */
+    width:1006px ;
+    background-color:burlywood;
+    color: black;
+    
+}
+#lev7_b1{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+    
+}
+#lev7_span1{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 20px;
+    margin-left: 17px;
+    
+}
+#lev7_li1_svg1{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 580px;
+    margin-top: 15px;
+    color: black;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans1{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 250px;
+    display: none;
+    
+}
+#lev7_ans1{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:30px ;
+    /* letter-spacing: 0px; */
+}
+
+/* *********************************************list-2 starts here ******************************************* */
+
+#lev7_li2{
+    width:1006px;
+    background-color:burlywood;
+    color: black;
+}
+#lev7_b2{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span2{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+#lev7_li2_svg2{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 470px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans2{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 130px;
+    display: none;
+}
+#lev7_ans2{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-3 starts here ******************************************* */
+
+#lev7_li3{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color:burlywood;
+    color: black;
+}
+#lev7_b3{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span3{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li3_svg3{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 485px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans3{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 300px;
+    display: none;
+}
+#lev7_ans3{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-4 starts here ******************************************* */
+
+#lev7_li4{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color:burlywood;
+    color: black;
+}
+#lev7_b4{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span4{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li4_svg4{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 610px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans4{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 120px;
+    display: none;
+}
+#lev7_ans4{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+/* *********************************************list-5 starts here ******************************************* */
+
+#lev7_li5{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color:burlywood;
+    color: black;
+}
+#lev7_b5{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span5{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li5_svg5{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 407px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans5{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 130px;
+    display: none;
+}
+#lev7_ans5{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-6 starts here ******************************************* */
+
+#lev7_li6{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color:burlywood;
+    color: black;
+}
+#lev7_b6{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color:burlywood;
+    color: black;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span6{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li6_svg6{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 460px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans6{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 230px;
+    display: none;
+}
+#lev7_ans6{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+/* ******************************************************** */
+#myidentification_div{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+#heading_icons{
+    height: 100px;
+    width: 900px;
+    padding-top: 30px;
+    margin-left: 220px;
+}
+#foot_h1{
+    font-style: oblique;
+    font-weight: 500px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#foot_h3{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 650px;
+}
+#linkedin{
+    padding-left: 350px;
+}
+#btn{
+    border: 1px solid black;
+}
+li{
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
